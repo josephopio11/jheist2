@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth transition-all">
       <body className={inter.className}>
         <MyThemeProvider
           attribute="class"
